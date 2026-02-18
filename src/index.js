@@ -9,9 +9,10 @@ import { Dashboard } from "./pages/dashboard";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Nav></Nav>
+    
     <BrowserRouter>
       <Routes>
+        <Nav></Nav>
         <Route path="/" element={<App />}></Route>
         <Route path="/dashboard" element={<Dashboard />}></Route>
       </Routes>

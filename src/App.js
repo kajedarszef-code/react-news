@@ -1,5 +1,6 @@
 import "./App.css";
 import { News } from "./components/news/news";
+import { Nav } from "./components/nav/nav";
 function App() {
   const name = "Kacper";
 
@@ -38,6 +39,8 @@ function App() {
 
   return (
     <>
+
+    <Nav></Nav>
       <h1 className="crazy-title">Hello {name}</h1>
 
       <main>
