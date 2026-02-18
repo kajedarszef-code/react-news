@@ -1,10 +1,10 @@
 import "./news.css";
 
-export function News({title}) {
+export function News({ title, description }) {
   return (
     <div class="glass-card">
       <h3>{title}</h3>
-      <p>DESCRIPTION</p>
+      <p>{description}</p>
 
       <div class="buttons">
         <button class="like">LIKE</button>

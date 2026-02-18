@@ -1,7 +1,6 @@
-import './App.css';
-import {News} from "./components/news";
+import "./App.css";
+import { News } from "./components/news/news";
 function App() {
-
   const name = "Kacper";
 
   const newsList = [
@@ -39,13 +38,14 @@ function App() {
 
   return (
     <>
-        <h1 className='crazy-title'>Hello {name}</h1>
+      <h1 className="crazy-title">Hello {name}</h1>
 
       <main>
-        {newsList.map(news => <News title={news.title}></News>)} 
-        </main>
-
-      </>
+        {newsList.map((news) => (
+          <News title={news.title} description={news.description}></News>
+        ))}
+      </main>
+    </>
   );
 }
 
