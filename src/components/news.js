@@ -1,9 +1,9 @@
 import "./news.css";
 
-export function News() {
+export function News({title}) {
   return (
     <div class="glass-card">
-      <h3>TITLE</h3>
+      <h3>{title}</h3>
       <p>DESCRIPTION</p>
 
       <div class="buttons">

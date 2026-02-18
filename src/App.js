@@ -42,7 +42,7 @@ function App() {
         <h1 className='crazy-title'>Hello {name}</h1>
 
       <main>
-        {newsList.map(news => <News></News>)}
+        {newsList.map(news => <News title={news.title}></News>)} 
         </main>
 
       </>
