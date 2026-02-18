@@ -7,18 +7,18 @@ export function Nav() {
   return (
     <nav>
       <span>
-        <i class="fa-brands fa-apple"></i>
+        <i className="fa-brands fa-apple"></i>
       </span>
 
       <ul>
         <li>
-          <i class="fa-solid fa-gauge"></i>DASHBOARD
+          <i className="fa-solid fa-gauge"></i>DASHBOARD
         </li>
         <li>
-          <i class="fa-solid fa-newspaper"></i>NEWS
+          <i className="fa-solid fa-newspaper"></i>NEWS
         </li>
         <li>
-          <i class="fa-solid fa-pizza-slice"></i>USER
+          <i className="fa-solid fa-pizza-slice"></i>USER
         </li>
         <li>
           <input placeholder="search" onChange={handleInput}></input>
