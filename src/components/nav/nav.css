@@ -1,0 +1,35 @@
+nav {
+  position: fixed;
+  background-color: #ffffff6b;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+ul > li:hover {
+  transform: scale(1.1);
+}
+
+span {
+    font-size: 4rem;
+}
